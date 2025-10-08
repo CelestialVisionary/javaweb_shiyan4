@@ -36,10 +36,13 @@ public class CartServlet extends HttpServlet {
         } else {
             // 否则显示用户购买蛋糕的信息
             out.write("您购买的蛋糕有：<br>");
-            double price = 0;
+            double totalPrice = 0;
             for (Cake cake : cart) {
-                out.write(cake.getName() + "<br>");
+                out.write(cake.getName() + " - 价格：" + cake.getPrice() + "元<br>");
+                totalPrice += cake.getPrice();
             }
+            out.write("<br><strong>购物总价格：" + totalPrice + "元</strong><br>");
         }
+        out.close();
     }
 }
