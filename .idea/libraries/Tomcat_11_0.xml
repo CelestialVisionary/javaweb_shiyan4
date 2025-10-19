@@ -8,6 +8,8 @@
       <root url="jar://$APPLICATION_HOME_DIR$/lib/jakarta.websocket-api-2.1.0.jar!/" />
       <root url="jar://$APPLICATION_HOME_DIR$/lib/jakarta.security.auth.message-api-3.0.0.jar!/" />
       <root url="jar://$APPLICATION_HOME_DIR$/lib/jakarta.annotation-api-3.0.0.jar!/" />
+      <root url="jar://$APPLICATION_HOME_DIR$/lib/jakarta.security.jacc-api-3.0.0.jar!/" />
+      <root url="jar://$APPLICATION_HOME_DIR$/lib/jakarta.transaction-api-2.0.0.jar!/" />
       <root url="jar://$APPLICATION_HOME_DIR$/lib/ecj-4.29.0.jar!/" />
     </CLASSES>
     <JAVADOC>
