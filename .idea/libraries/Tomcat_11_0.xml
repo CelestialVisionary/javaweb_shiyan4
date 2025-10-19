@@ -4,6 +4,10 @@
       <root url="jar://$APPLICATION_HOME_DIR$/lib/jakarta.servlet-api-6.0.0.jar!/" />
       <root url="jar://$APPLICATION_HOME_DIR$/lib/jakarta.servlet.jsp-api-4.0.0.jar!/" />
       <root url="jar://$APPLICATION_HOME_DIR$/lib/jakarta.servlet.jsp.jstl-api-3.0.0.jar!/" />
+      <root url="jar://$APPLICATION_HOME_DIR$/lib/jakarta.el-api-5.0.0.jar!/" />
+      <root url="jar://$APPLICATION_HOME_DIR$/lib/jakarta.websocket-api-2.1.0.jar!/" />
+      <root url="jar://$APPLICATION_HOME_DIR$/lib/jakarta.security.auth.message-api-3.0.0.jar!/" />
+      <root url="jar://$APPLICATION_HOME_DIR$/lib/jakarta.annotation-api-3.0.0.jar!/" />
       <root url="jar://$APPLICATION_HOME_DIR$/lib/ecj-4.29.0.jar!/" />
     </CLASSES>
     <JAVADOC>
