@@ -2,9 +2,9 @@ package cart.servlet;
 import cart.entity.Cake;
 import java.io.*;
 import java.util.List;
-import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.*;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.*;
 @WebServlet(name = "CartServlet",urlPatterns="/CartServlet")
 public class CartServlet extends HttpServlet {
     public void doGet(HttpServletRequest req, HttpServletResponse resp)

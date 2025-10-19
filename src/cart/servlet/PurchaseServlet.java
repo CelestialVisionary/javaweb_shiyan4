@@ -3,9 +3,9 @@ import cart.entity.Cake;
 import cart.entity.CakeDB;
 import java.io.IOException;
 import java.util.*;
-import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.*;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.*;
 @WebServlet(name = "PurchaseServlet",urlPatterns="/PurchaseServlet")
 public class PurchaseServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
