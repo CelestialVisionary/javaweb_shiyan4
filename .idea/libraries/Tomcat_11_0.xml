@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Tomcat 11.0" type="application_server_library">
+    <CLASSES>
+      <root url="jar://$APPLICATION_HOME_DIR$/lib/jakarta.servlet-api-6.0.0.jar!/" />
+      <root url="jar://$APPLICATION_HOME_DIR$/lib/jakarta.servlet.jsp-api-4.0.0.jar!/" />
+      <root url="jar://$APPLICATION_HOME_DIR$/lib/jakarta.servlet.jsp.jstl-api-3.0.0.jar!/" />
+      <root url="jar://$APPLICATION_HOME_DIR$/lib/ecj-4.29.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="$APPLICATION_HOME_DIR$/webapps/docs/api/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
